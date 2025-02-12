@@ -75,7 +75,7 @@ const Navbar = () => {
                 <Link
                   to="/mvp"
                   className={`block py-2 px-3 text-white rounded-sm md:p-0 ${isActive(
-                    "/pricing"
+                    "/mvp"
                   )}`}
                 >
                   MVP
