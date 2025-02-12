@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import { Bar, Line } from "react-chartjs-2";
 
 const ChartServices = () => {
-  const pendapatan = [
+  const services = [
     {
       label: "Data / Machine Learning",
       value: 9,
@@ -41,11 +41,11 @@ const ChartServices = () => {
                 <div className="h-full w-full">
                   <Bar
                     data={{
-                      labels: pendapatan.map((data) => data.label),
+                      labels: services.map((data) => data.label),
                       datasets: [
                         {
                           label: "joki, course, dan consultation",
-                          data: pendapatan.map((data) => data.value),
+                          data: services.map((data) => data.value),
                         },
                       ],
                     }}
