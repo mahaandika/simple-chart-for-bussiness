@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ChartKeuangan from "./pages/ChartKeuangan.jsx";
 import ChartServices from "./pages/ChartServices.jsx";
+import Mvp from "./pages/Mvp.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/service",
     element: <ChartServices />,
+  },
+  {
+    path: "/mvp",
+    element: <Mvp />,
   },
 ]);
 
